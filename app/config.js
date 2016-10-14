@@ -3,6 +3,7 @@
 // Note: prototype config can be overridden using environment variables (eg on heroku)
 
 module.exports = {
+  global_header_text: "GOV.UK Notify",
 
   // Service name used in header. Eg: 'Renew your passport'
   serviceName: " ",
@@ -20,4 +21,3 @@ module.exports = {
   cookieText: 'GOV.UK uses cookies to make the site simpler. <a href="#" title="Find out more about cookies">Find out more about cookies</a>'
 
 };
-	

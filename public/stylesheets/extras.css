@@ -77,13 +77,16 @@
   color: #ffffff;
   margin-top: -10px;
   width: 100%;
-  height: 640px;
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
-#product-style a {
+.product-style a {
   color: #ffffff;
+}
+
+.product-style p {
+  text-color: #ffffff;
 }
 
 .button-hint {
@@ -97,4 +100,22 @@ ul {
 
 .design-update {
   font-size: 14px;
+}
+
+#content {
+  padding-bottom: 30px;
+}
+
+#main {
+  padding-bottom: 0px;
+}
+
+#footer .footer-categories-wrapper {
+  padding: 0 0 60px;
+  margin: 0 0 30px;
+  border-bottom: 1px solid #bfc1c3;
+}
+
+.grid-row {
+  margin: 0 -15px 20px;
 }

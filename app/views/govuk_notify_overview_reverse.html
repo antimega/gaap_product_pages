@@ -1,0 +1,263 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK Notify
+{% endblock %}
+
+{% block footer_top %}
+<div class="footer-categories">
+    <div class="footer-categories-wrapper">
+      <div class="grid-row">
+        <div class="column-one-third">
+          <h2>Contact</h2>
+          <ul class="list" style="list-style-type: none; margin-left:0;">
+            <li><a href="https://www.notifications.service.gov.uk/feedback">Support and feedback</a></li>
+            <li><a href="https://ukgovernmentdigital.slack.com/messages/govuk-notify">Chat with the Notify team</a></li>
+          </ul>
+        </div>
+        <div class="column-one-third">
+          <h2>Help</h2>
+          <ul class="list" style="list-style-type: none; margin-left:0;">
+            <li><a href="https://www.notifications.service.gov.uk/terms">Terms of use</a></li>
+            <li><a href="https://www.notifications.service.gov.uk/trial-mode">Trial mode</a></li>
+            <li><a href="https://www.notifications.service.gov.uk/pricing">Pricing</a></li>
+            <li><a href="https://www.notifications.service.gov.uk/delivery-and-failure">Delivery and failure</a></li>
+          </ul>
+        </div>
+        <div class="column-one-third">
+          <h2>API documentation</h2>
+          <ul class="list" style="list-style-type: none; margin-left:0;">
+
+            <li><a href="https://github.com/alphagov/notifications-java-client">Java client</a></li>
+
+            <li><a href="https://github.com/alphagov/notifications-node-client">Node JS client</a></li>
+
+            <li><a href="https://github.com/alphagov/notifications-php-client">PHP client</a></li>
+
+            <li><a href="https://github.com/alphagov/notifications-python-client">Python client</a></li>
+
+            <li><a href="https://github.com/alphagov/notifications-ruby-client">Ruby client</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% set global_header_text = "GOV.UK Notify" %}
+
+{% block inside_header %}
+</div>
+<div class="header-proposition" style="margin-top: 4px;">
+          <div class="content">
+            <a href="#proposition-links" class="js-header-toggle menu">Menu</a>
+            <nav id="proposition-menu">
+              <ul id="proposition-links" class="right-aligned">
+                <li><a href="https://payments:team@pay-staff-tool-2.herokuapp.com/sign-in">Sign in</a></li>
+                <li><a href="https://gds-payments.gelato.io/">Developer documentation</a></li>
+                <li><a href="https://www.notifications.service.gov.uk/register">Features</a></li>
+                <li><a href="#">About</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+{% endblock %}
+
+{% block content %}
+
+<body>
+<header class="">
+<main id="content" role="main">
+
+    <div class="breadcrumbs">
+      <ol>
+        <li>
+          <a href="#"></a>
+        </li>
+      </ol>
+    </div>
+  <div class="grid-row">
+      <div class="column-two-thirds">
+
+        <h1 class="heading-xlarge">GOV.UK Notify keeps your users updated</h1>
+
+        <p class="lede">
+          GOV.UK Notify makes it easy to send text messages and emails to your users.<p>
+
+<p>If you work for a UK government department or agency you can try it now.
+        </p>
+
+      <a class="button" href="https://www.notifications.service.gov.uk/register" role="button" style="background-color: #fff; color: #005EA5;">Create an account</a></p> <p>or <a href="https://www.notifications.service.gov.uk/sign-in">sign in</a> if you've used it before</p>
+
+
+
+      <!-- <p class="design-update">
+        Last updated: two weeks ago </p> -->
+
+        <!-- <p><img src="/public/images/notify.png"></p> -->
+    </div>
+  </div>
+  </main>
+</header>
+
+
+<main id="content" role="main">
+
+
+<div class="grid-row product-style">
+
+      <div class="column-two-thirds">
+
+      <h2 class="heading-large" id="1">Quicker, cheaper and easier</h2>
+
+      <p>Government receives millions of calls every year from people anxious to find out about the progress of their application or whether we received their payment. People have to spend time on hold, which wastes their time and costs government a lot of money in call centre running costs.</p>
+
+<p>GOV.UK Notify makes it easier to keep people updated, by helping service teams across government to send text messages, emails or letters to their users.</p>
+</div>
+
+</div>
+
+
+<div class="grid-row product-style">
+      <div class="column-one-half">
+        <p>Benefits to service teams include:</p>
+
+        <ul class="list list-bullet">
+          <li>send emails, text messages and letters easily</li>
+          <li>easy templating for each message you want to send</li>
+          <li>cheaper than most commercial providers - free email sending and an allowance of free text messages for each service</li>
+          <li>flexibility and resilience by having a number of SMS, email and post providers</li>
+          <li>specific permission levels for different team members</li>
+        </ul>
+      </div>
+
+      <div class="column-one-half">
+        <p>Benefits to day-to-day operations include:</p>
+
+        <ul class="list list-bullet">
+
+          <li>API integration with your web applications or back office systems</li>
+          <li>simple web interface to upload batches of messages</li>
+
+        </ul>
+       </div>
+
+       <p><img src="/public/images/notify-phones-white.png"></p>
+
+  </div>
+
+  <div class="grid-row">
+
+
+            <div class="column-full" style="padding-left:10px;">
+
+          <h2 class="heading-large" id="3">Who's using GOV.UK Notify?</h2>
+
+          <div class="grid-row">
+
+          <div class="column-one-quarter">
+            <p><span class="heading-large">8</span><br>departments</p>
+          </div>
+
+          <div class="column-one-quarter">
+            <p><span class="heading-large">13</span><br>services</p>
+          </div>
+
+          <div class="column-one-quarter">
+            <p><span class="heading-large">110k</span><br>emails<br>sent last week</p>
+          </div>
+
+          <div class="column-one-quarter">
+            <p><span class="heading-large">55k</span><br>text messages<br>sent last week</p>
+          </div>
+
+        </div>
+
+      </div>
+  </div>
+
+  <div class="grid-row product-style">
+      <div class="column-two-thirds">
+        <h2 class="heading-large" id="4">Try it now</h2>
+
+        <p>
+          All central UK Government departments and agencies can use GOV.UK Notify.</p>
+
+        <p class="button-hint">You will be able to:
+          <ul>
+            <li>create an account</li>
+            <li>send some test messages</li>
+            <li>see the features of the GOV.UK Notify admin tool</li>
+          </ul>
+        </p>
+
+        <a class="button" href="https://www.notifications.service.gov.uk/register" role="button" style="">Create an account</a></p> <p>or <a href="https://www.notifications.service.gov.uk/sign-in">sign in</a> if you've used it before</p>
+
+
+              </div>
+          </div>
+
+          <div class="grid-row">
+              <div class="column-two-thirds">
+                <div class="column-two-thirds">
+
+                  <h2 class="heading-large" id="4">What our users say</h2>
+                  <p><span class="heading-small">&ldquo;I found the service really user friendly, easy to edit the messages and the data counter to let you see that the messages are sending is a real added benefit.&rdquo;</span><br>Her Majesty's Passport Office</p>
+                  <p><span class="heading-small">&ldquo;To be able to just sign up and start testing without any heavy burden of bureaucracy meant that in just a fortnight we could identify a user need, build a prototype and start gaining feedback from users - without spending a penny of taxpayers' money.&rdquo;</span><br>Government Legal Office</p>
+                </div>
+              </div>
+
+          </div>
+
+  <div class="grid-row product-style">
+      <div class="column-two-thirds">
+
+          <h2 class="heading-large" id="4">Recent blog posts</h2>
+          <p><a href="https://governmentasaplatform.blog.gov.uk/2016/09/13/pounds-to-pennies/">From pounds to pennies and months to minutes</a></p>
+          <p><a href="https://governmentasaplatform.blog.gov.uk/2016/07/26/notify-sends-first-messages/">GOV.UK Notify sends its first messages</a></p>
+          <p><a href="https://governmentasaplatform.blog.gov.uk/2016/05/06/user-research-service-teams/">User research with service teams for GOV.UK Notify</a></p>
+          <p><a href="https://governmentasaplatform.blog.gov.uk/2016/03/21/main-notify-users-service-teams/">The main users of GOV.UK Notify are service teams</a></p>
+          <p><a href="https://governmentasaplatform.blog.gov.uk/2016/01/06/introducing-notify/">Introducing GOV.UK Notify</a></p>
+
+          <p>Read more on the <a href="https://governmentasaplatform.blog.gov.uk">Government As A Platform blog</a></p>
+      </div>
+
+  </div>
+
+
+
+  <div class="grid-row">
+      <div class="column-two-thirds">
+
+          <h2 class="heading-large" id="5">Built by Government for Government</h2>
+
+          <p>GOV.UK Notify is built and supported by a full time team at GDS.</p>
+
+          <p><img src="/public/images/team.jpg"></p>
+
+            <p>The product owners are Pete Herlihy & Fajer Qasem.</p>
+
+          <p>To contact the team email <a href="govuk-notify@digital.cabinet-office.gov.uk">govuk-notify@digital.cabinet-office.gov.uk</a></p>
+
+          <p>There is a <a href="https://ukgovernmentdigital.slack.com/archives/govuk-notify">#govuk-notify</a> channel on <a href="http://ukgovernmentdigital.slack.com">UK Government Digital Slack</a> </p>
+      </div>
+  </div>
+
+  <div class="grid-row product-style">
+      <div class="column-two-thirds">
+
+          <h2 class="heading-large" id="4">Part of the Government as a Platform programme</h2>
+          <p>Government as a Platform makes it easy to assemble digital services out of shared components, eg service patterns, products, data and a joined up approach to hosting. This frees service teams across government to spend their time designing high quality, straightforward user-friendly services, rather than starting from scratch. </p>
+          <p><a href="https://www.gov.uk/government/publications/govuk-pay">GOV.UK Pay</a> is the new simple, secure way for citizens to pay for government services online</p>
+          <p><a href="https://www.gov.uk/government/publications/platform-as-a-service/platform-as-a-service">Platform As A Service</a> makes it faster, cheaper and easier for teams to build digital services</p>
+
+</p>
+
+      </div>
+
+</main>
+
+</body>
+
+{% endblock %}
